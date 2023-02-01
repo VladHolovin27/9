@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.form {
+    max-width: 300px;
+    background-color: #f7f6fd;
+    border-radius: 7px;
+    padding: 20px 20px;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.but1 {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.but1--white {
+    background-color: #f7f6fe;
+    color: #934ff7;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__inp {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdfdff;
+    color: #909193;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.form__inp:focus {
+    outline: none;
+}
+
+.form__link {
+    color: #a26bf8;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px 0 13px 0;
+}
+
+.but2 {
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.checkbox__label {
+    background-color: #9ba2d6;
+    display: inline-block;
+    user-select: none;
+    height: 17px;
+    width: 33px;
+    border-radius: 5px;
+}
+
+.round {
+    display: inline-block;
+    background-color: blue;
+    height: 13px;
+    width: 13px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 2px 0 0 2px;
+    transition: 0.3s;
+}
+
+#check:checked + .round {
+    margin-left: 17px;
+    background-color: #d7dbf7;
+}
+
+#check {
+    display: none;
+}
+
+.label__text {
+    position: absolute;
+    left: 60px;
+    top: 230px;
+}
